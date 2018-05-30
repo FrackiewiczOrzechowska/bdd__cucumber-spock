@@ -14,6 +14,8 @@ class InMemoryAccountRepositoryTest extends Specification {
 
         where:
         customer = new Customer()
+
+        
     }
 
     def "account can be stored and retrieved from repository"() {
