@@ -14,7 +14,7 @@ class InMemoryAccountRepositoryTest extends Specification {
 
         where:
 
-        
+
         customer = new Customer()
 
 
