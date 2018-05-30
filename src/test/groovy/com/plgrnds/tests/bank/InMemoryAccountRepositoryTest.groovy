@@ -13,9 +13,11 @@ class InMemoryAccountRepositoryTest extends Specification {
         assertThat(repository.getAccountsForCustomer(customer)).isEmpty()
 
         where:
-        customer = new Customer()
 
         
+        customer = new Customer()
+
+
     }
 
     def "account can be stored and retrieved from repository"() {
